@@ -345,8 +345,12 @@ img {
 }
 
 .sm-banner {
-    background: linear-gradient(135deg, var(--primary-orange), var(--primary-red));
     padding: 60px 0;
+}
+
+.banner-img{
+    width: 100%;
+    height: 100%;
 }
 
 .banner-box {
@@ -565,4 +569,5 @@ img {
     .banner-box h3 {
         font-size: 28px;
     }
+
 }
