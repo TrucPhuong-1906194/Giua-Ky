@@ -582,3 +582,38 @@ img {
     }
 
 }
+
+.sm-banner{
+    padding:60px 0;
+}
+
+.banner-box{
+    height:300px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:var(--white);
+
+    background:
+    linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+    url("./banner.jpg");
+
+    background-size:cover;
+    background-position:center;
+    border-radius:20px;
+}
+
+.banner-content{
+    z-index:2;
+}
+
+.banner-box h3{
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+.banner-box p{
+    font-size:18px;
+    margin-bottom:20px;
+}
