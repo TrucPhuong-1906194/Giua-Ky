@@ -243,7 +243,6 @@ img {
 .feature-box h3 {
     font-size: 18px;
     color: var(--dark-text);
-    margin-bottom: 10px;
 }
 
 .feature-box p {
@@ -362,7 +361,6 @@ img {
 
 .banner-box p {
     font-size: 18px;
-    margin-bottom: 25px;
     opacity: 0.95;
 }
 
