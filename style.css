@@ -242,7 +242,7 @@ img {
 
 .feature-box h3 {
     font-size: 18px;
-    color: var(--dark-text);
+    color: var(--primary-red);
 }
 
 .feature-box p {
@@ -311,7 +311,7 @@ img {
 .product-card h3 {
     padding: 20px 20px 10px;
     font-size: 18px;
-    color: var(--dark-text);
+    color: var(--primary-red);
 }
 
 .product-card .price {
