@@ -179,6 +179,7 @@ img {
 }
 
 .hero {
+    height: 500px;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -341,9 +342,9 @@ img {
     font-weight: 700;
 }
 
-.sm-banner {
-    background: linear-gradient(135deg, var(--primary-orange), var(--primary-red));
-    padding: 60px 0;
+.banner-img{
+    width: 100%;
+    height: 100%;
 }
 
 .banner-box {
@@ -496,11 +497,11 @@ img {
     .features {
         grid-template-columns: repeat(2, 1fr);
     }
-    
+
     .product-grid {
         grid-template-columns: repeat(3, 1fr);
     }
-    
+
     .footer-content {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -510,41 +511,41 @@ img {
     .header .container {
         flex-wrap: wrap;
     }
-    
+
     .navbar {
         display: none;
     }
-    
+
     .hero h1 {
         font-size: 40px;
     }
-    
+
     .hero p {
         font-size: 16px;
     }
-    
+
     .features {
         grid-template-columns: 1fr;
         margin-top: 30px;
     }
-    
+
     .product-grid {
         grid-template-columns: repeat(2, 1fr);
     }
-    
+
     .section-title {
         font-size: 30px;
     }
-    
+
     .newsletter-form {
         flex-direction: column;
     }
-    
+
     .footer-content {
         grid-template-columns: 1fr;
         text-align: center;
     }
-    
+
     .social-links {
         justify-content: center;
     }
@@ -554,12 +555,13 @@ img {
     .product-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .hero h1 {
         font-size: 32px;
     }
-    
+
     .banner-box h3 {
         font-size: 28px;
     }
+
 }
