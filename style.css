@@ -181,7 +181,7 @@ img {
 
 .hero {
     background: linear-gradient(135deg, rgba(159, 15, 15, 0.9), rgba(255, 227, 198, 0.8)),
-                url('./Hình ảnh/hình nền.jpg') center/cover;
+                url('./hình nền.jpg') center/cover;
     min-height: 100vh;
     display: flex;
     align-items: center;
